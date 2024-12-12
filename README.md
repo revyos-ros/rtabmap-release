@@ -1,3 +1,26 @@
+## rtabmap (humble) - 0.21.9-1
+
+The packages in the `rtabmap` repository were released into the `humble` distro by running `/home/z572/gits/revyos-ros/venv2/bin/bloom-release -r humble rtabmap --override-release-repository-push-url git@github.com:revyos-ros/rtabmap-release.git` on `Thu, 12 Dec 2024 07:44:40 -0000`
+
+The `rtabmap` package was released.
+
+Version of package(s) in repository `rtabmap`:
+
+- upstream repository: https://github.com/introlab/rtabmap.git
+- release repository: https://github.com/revyos-ros/rtabmap-release.git
+- rosdistro version: `0.21.9-1`
+- old version: `0.21.6-1`
+- new version: `0.21.9-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## rtabmap (humble) - 0.21.6-1
 
 The packages in the `rtabmap` repository were released into the `humble` distro by running `/usr/bin/bloom-release --ros-distro humble rtabmap` on `Tue, 23 Jul 2024 04:25:50 -0000`
