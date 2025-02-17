@@ -1,0 +1,13 @@
+Source: ros-humble-rtabmap
+Section: misc
+Priority: optional
+Maintainer: Mathieu Labbe <matlabbe@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, liboctomap-dev, libpcl-dev, libproj-dev, libsqlite3-dev, ros-humble-cv-bridge, ros-humble-gtsam, ros-humble-libg2o, ros-humble-libpointmatcher, ros-humble-qt-gui-cpp, zlib1g-dev, ros-humble-ros-workspace
+Homepage: http://introlab.github.io/rtabmap
+Standards-Version: 3.9.2
+
+Package: ros-humble-rtabmap
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liboctomap-dev, libpcl-dev, libsqlite3-dev, ros-humble-cv-bridge, ros-humble-gtsam, ros-humble-libg2o, ros-humble-libpointmatcher, ros-humble-qt-gui-cpp, zlib1g-dev, ros-humble-ros-workspace
+Description: RTAB-Map's standalone library.
+ RTAB-Map is a RGB-D SLAM approach with real-time constraints.
